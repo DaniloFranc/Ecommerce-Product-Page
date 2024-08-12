@@ -1,0 +1,455 @@
+.topo{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    
+}
+
+.titulo{
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Kumbh Sans';
+    color: hsl(200, 13%, 13%);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.botoes{
+
+    display: flex;    
+    
+}
+
+
+.menu{
+    font-family: 'Kumbh Sans';
+    color: hsl(219, 9%, 45%);
+    margin-top: 15px;
+    font-size: 15px;
+    
+    margin-left: 40px;
+}
+
+.menu1{
+    font-family: 'Kumbh Sans';
+    color: hsl(219, 9%, 45%);
+    margin-left: -380px;    
+    margin-top: 15px;
+    font-size: 15px;
+
+}
+
+.imagens {
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.avatarImage{
+    width: 50px;
+    height: 50px;
+}
+
+.space{
+    width: 20px;
+}
+
+.line{
+    width: 72%;
+    
+    color: hsl(223, 64%, 98%);
+    opacity: 20%;
+}
+
+.cartImage{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.imagePrincProduct{
+    width: 400px;
+    border-radius: 15px;
+}
+
+
+
+
+.imageProductThumb{
+    cursor: pointer;
+    width: 80px;
+    
+    
+}
+
+.imageHover {
+    transition: opacity 0.3s ease;
+}
+
+.imageHover:hover {
+    
+    opacity: 0.5; 
+}
+
+.selected {
+    border: 2px solid hsl(26, 100%, 55%);
+    opacity: 0.5;
+}
+
+.popupp{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+}
+
+.ocultarPopup{
+    display: none;
+}
+
+.janelaPopup{
+    background-color: transparent;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+
+
+
+.align{
+    display: flex;
+    margin-top: 15px;
+    flex-direction: row;
+
+}
+
+.line2{
+    
+    border: none;
+    margin-left: -1000px;
+
+    
+}
+
+.preco{
+    display: flex;
+    flex-direction: row;
+}
+
+.botaoComprar{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.desconto{
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    padding: 2.5px 8px 2.5px 8px;
+    font-weight: bold;
+    
+}
+
+.imageProductThumb{
+    border-radius: 10px;
+}
+
+
+.spacePage{
+    width: 100px;
+}
+
+.productText{
+    font-family: 'Kumbh Sans';
+}
+
+.precoReal{
+    text-decoration: line-through;
+    color: hsl(219, 9%, 45%);
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.textoTitulo{
+    color: hsl(219, 9%, 45%);
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.textoTopo{
+    color: hsl(220, 13%, 13%);
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.textoBaixo{
+    color: hsl(219, 9%, 45%);
+    line-height: 25px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.textPreco{
+    color: hsl(220, 13%, 13%);
+    font-weight: bold;
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.quantidade{
+    color: hsl(220, 13%, 13%);
+    font-weight: bold;
+}
+
+.retirar{
+    color: hsl(26, 100%, 55%);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.adicionar{
+    color: hsl(26, 100%, 55%);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.popup {
+    display: none; 
+    position: absolute;
+    top: 80px; 
+    right: 200px; 
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    width: 350px;
+    font-family: 'Kumbh Sans';
+}
+
+.popupContent {
+    padding: 10px;
+    text-align: center;
+}
+
+.tituloPopup{
+    display: flex;
+    color: hsl(220, 13%, 13%);
+    font-weight: bold;
+    font-size: 15px;
+    justify-content: flex-start;
+
+}
+
+.linePopup{
+    width: 348.5px;    
+    margin-left: -10px;
+    /* height: 10%; */
+    /* border: none; */
+    color: hsl(223, 64%, 98%);
+    opacity: 20%;
+}
+
+.textPopup{
+    font-weight: bold;
+    color: hsl(219, 9%, 45%);
+    padding: 50px;
+    font-size: 15px;
+}
+
+.item-count {
+    position: absolute;
+    top: 8px; 
+    right: 60px; 
+    background-color: orange;
+    color: white;
+    border-radius: 40%;
+    padding: 3px 8px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#itemCount {
+    display: none;
+}
+
+.odemPopup{
+    display: flex;
+    flex-direction: row;
+}
+
+.imageProcutPopup{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 3px;
+    border-radius: 13px;
+}
+
+.precoMulti{
+    font-weight: bold;
+}
+
+.produtoPopup{
+    color: hsl(219, 9%, 45%);  
+}
+
+.alignPopup{
+    display: flex;
+    flex-direction: column;
+}
+
+.popupStart{
+    text-align: start;
+    line-height: 10px;
+}
+
+.botPopup{
+    cursor: pointer;
+    background-color: hsl(26, 100%, 55%);
+    font-family: 'Kumbh Sans';
+    font-weight: bold;
+    width: 310px;
+    border: none;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.imagemPopupLixeira{
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 18px;
+    width: 13px;
+    height: 15px;
+}
+
+.popupTextProduto{
+    color: hsl(219, 9%, 45%); 
+}
+
+.botaoIncluirProduto{
+    cursor: pointer;
+    background-color: hsl(26, 100%, 55%);
+    font-family: 'Kumbh Sans';
+    font-weight: bold;
+    border: none;
+    width: 250px;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.spaceIncluir{
+    width: 50px;
+}
+
+
+.cartImage2{
+    color: hsl(220, 13%, 13%);
+    margin-right: 10px;
+    height: 15px;
+}
+
+
+.alignIncluir{
+    display: flex;
+    margin-top: 22px;
+}
+
+
+.retirar{
+    font-size: 20px;
+}
+
+.adicionar{
+    font-size: 20px;
+}
+.quantidade{
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.caixaPreco{
+    margin-top: 20px;
+}
+
+.alingFechar{
+
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    margin-right: 25px;    
+
+}
+
+.fechar {
+    filter: brightness(0) invert(1) sepia(0) saturate(10000%) hue-rotate(0deg);
+    width: 20px;
+    height: 20px;
+}
+
+.previous {
+    position: relative;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px 20px;
+    height: 25px;
+    border-radius: 100%;
+    z-index: 3;
+    margin-right: -35px;
+    margin-bottom: 220px;
+}
+
+.next {
+    position: relative;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px 20px;
+    height: 25px;
+    border-radius: 100%;
+    z-index: 3;
+    margin-left: -35px;
+    margin-bottom: 220px;
+}
+
+.caixaPopupPrinc {
+    display: flex; /* Torna o container flexível */
+    flex-direction: column; /* Define a direção da flexão como coluna */
+}
+
+.imagePrincProductPopup {
+    position: relative;
+    width: 500px;
+    border-radius: 15px;
+    z-index: 2;
+   
+}
